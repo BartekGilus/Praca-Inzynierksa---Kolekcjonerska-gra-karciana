@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4544907542836417349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4544907542836417355}
+  - component: {fileID: 4544907542836417348}
+  m_Layer: 0
+  m_Name: TurnSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4544907542836417355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544907542836417349}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 342.641, y: -118.25075, z: -1398.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4544907542836417348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544907542836417349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106df7781f95e404580577fcb2306274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnState: 0
+  newGame: {fileID: 0}
+  playerHand: {fileID: 0}
+  enemyHand: {fileID: 0}
+  playerHealthText: {fileID: 0}
+  enemyHealthText: {fileID: 0}
+  playerManaText: {fileID: 0}
+  enemyManaText: {fileID: 0}
+  endMainfaceButton: {fileID: 0}
+  endAttackDeclarationButton: {fileID: 0}
+  endBlockDeclarationButton: {fileID: 0}
+  endSecondMainfaceButton: {fileID: 0}
+  currentPlayerMana: 0
+  playerMana: 0
+  currentEnemyMana: 0
+  enemyMana: 0
+  playerHealth: 0
+  enemyHealth: 0
+  currentPlayerTurn: 1
+  currentEnemyTurn: 0
+  playerTurn: 0
+  TurnBeginRoutineIsDone: 0
+  CombatRoutineIsDone: 0
